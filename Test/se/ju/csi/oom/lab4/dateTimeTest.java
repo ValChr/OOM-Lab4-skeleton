@@ -14,7 +14,7 @@ public class dateTimeTest {
 	@Test
 	public void testToString() {
 		DateTime testOb = new DateTime(2018, 10, 03, 11,34, 00);
-		assertEquals("2018-10-03 11:34", testOb.toString());
+		assertEquals("2018-10-03 11:34:00", testOb.toString());
 	}
 
 	@Test
